@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Yap</title>
+
+    <style>
+        table {
+            border: 1px black solid;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Navigational Links</h1>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#footer">Footer</a></li>
+                <li><a href="#contactinfo">Collaboration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="aboutme">
+            <h1>About Me Page</h1>
+            <p>
+                I am a banker with 2 years work experience in the banking industry in Singapore.
+                Looking to expand my knowledge through coding/programming in order to take up jobs
+                relating to fintech. So far I love coding as it is a knowledge that is versatile
+                and can help many industries in the world.
+            </p>
+
+            <h1>Hobbies and Languages</h1>
+            <table>
+                <tr>
+                    <td>Sports</td>
+                    <td>Diving, Basketball, Frisbee</td>
+                </tr>
+                <tr>
+                    <td>Languages</td>
+                    <td>English, Mandarin, Malay, and Cantonese</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contactinfo">
+            <h1>Collaborating</h1>
+            <p>Looking to work together? Fill in your info and let's collaborate!</p>
+            <form action="#formhandler">
+                <div>                
+                    <label for="first Name">
+                        First Name: 
+                    <input type="text" name="first Name"> 
+                    </label>          
+                  </div>
+ 
+                <div>
+                    <label for="surname">
+                        Surname: 
+                    <input type="text" name="surname">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="email">
+                        Email: 
+                        <input type="email" name="email">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="contactnumber">
+                        Contact No: 
+                        <input type="number" name="contactnumber" id="contactnumber">
+                    </label>
+                </div>
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
